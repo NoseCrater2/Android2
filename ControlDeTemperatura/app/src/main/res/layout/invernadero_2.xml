@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/invernadero2_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Invernadero 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:id="@+id/txtMax3"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="59dp"
+        android:text="Maxima" />
+
+    <Button
+        android:id="@+id/btnAgregar2"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtMax3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-59dp"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/editTemp2"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtMax3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-59dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtMin2"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="90dp"
+        android:text="Minima" />
+
+    <TextView
+        android:id="@+id/txtProm3"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="116dp"
+        android:text="Promedio" />
+
+    <TextView
+        android:id="@+id/txtTodos2"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnShowTodos3"
+        android:text="Ver todos" />
+
+    <Button
+        android:id="@+id/btnShowTodos3"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMax3"
+        android:layout_below="@+id/txtProm3"
+        android:text="Ver todos" />
+
+</RelativeLayout>
