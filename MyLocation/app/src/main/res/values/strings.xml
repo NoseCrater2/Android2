@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyLocation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pause">PAUSE LOCATION UPDATES</string>
+    <string name="resume">RESUME LOCATION UPDATES</string>
+
+</resources>
